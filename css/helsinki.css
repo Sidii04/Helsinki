@@ -1,0 +1,47 @@
+body{
+    background-image: url("../Images/1526707-3840x2160-desktop-4k-helsinki-wallpaper.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: turquoise;
+    font-style: italic;
+    color: white;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: turquoise;
+    border-radius: 20px;
+    font-style: italic;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    margin: 20px 50px;
+    padding: 3px;
+    justify-content: center;
+    background-color: turquoise;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 15px;
+}
